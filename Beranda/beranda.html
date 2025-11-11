@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keamanan Data - Beranda</title>
+    <link rel="stylesheet" href="beranda.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <header>
+       <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <img src="../logo.png" alt="Keamanan Data Logo"> 
+                <span>Keamanan Data</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Beranda</a></li>
+                <li><a href="http://localhost/KeamananData/Topik/topik.html">Topik</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Jelajahi Dunia <span class="highlight">Keamanan Web</span></h1>
+                    <p>Website ini dibuat khusus untuk tugas dan praktikum pendidikan. Segala bentuk simulasi kerentanan hanya bertujuan sebagai pembelajaran, bukan untuk digunakan pada lingkungan nyata.</p>
+                        <div class="hero-image">
+                    <img src="../internet.png" alt="Ilustrasi Keamanan Web"> 
+                </div>
+                    <button class="btn-primary" onclick="window.location.href='../Topik/topik.html'">Eksplor
+                        Topik</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="topics">
+        <div class="container">
+            <h2 class="section-title-left">Topik yang dibahas</h2>
+            <div class="topics-grid">
+                
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <img src="../sqlblack.png" alt="Database Icon">
+                    </div>
+                    <h3>SQL Injection</h3>
+                    <p>Praktik ini bertujuan untuk memahami bagaimana input yang tidak divalidasi dapat mengancam keamanan sistem dan bagaimana cara mencegahnya menggunakan prepared statement.</p>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <img src="../xssblack.png" alt="Code Icon">
+                    </div>
+                    <h3>Cross-Site Scripting (XSS)</h3>
+                    <p>Pahami risiko dari serangan skrip yang tidak divalidasi. Praktik ini membantu memahami pentingnya validasi dan encoding data sebelum ditampilkan.</p>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <img src="../uploadblack.png" alt="Upload Icon">
+                    </div>
+                    <h3>Kerentanan Upload</h3>
+                    <p>Praktik ini bertujuan mengajarkan cara mengamankan fitur upload dengan validasi tipe file, ukuran, dan penyimpanan di direktori aman. Temukan bahaya dari fitur unggah file yang tidak aman</p>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <img src="../bacblack.png" alt="Access Control Icon">
+                    </div>
+                    <h3>Broken Access Control</h3>
+                    <p>Belajar pentingnya autentikasi dan otorisasi yang tepat agar tidak terjadi kebocoran data dan penyalahgunaan hak akses.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="why-section">
+        <div class="container">
+            <div class="why-layout">
+                <div class="why-illustration">
+                    <img src="../why.png" alt="Ilustrasi Orang Bertanya"> 
+                </div>
+                <div class="why-content">
+                    <h2 class="section-title-left">Mengapa ini Penting?</h2>
+                    <p class="section-subtitle-left">Memahami keamanan web adalah kunci untuk melindungi data dan sistem di era
+                        digital. Pelajari dasar-dasar untuk membangun aplikasi yang lebih aman.</p>
+                    <div class="why-grid-v2">
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <img src="../secure.png" alt="Protect Data Icon">
+                            </div>
+                            <div>
+                                <h3>Melindungi Data Pengguna</h3>
+                                <p>Agar informasi sensitif tidak dicuri atau dimanipulasi oleh pihak tidak bertanggung jawab.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <img src="../cyber.png" alt="Prevent Attack Icon">
+                            </div>
+                            <div>
+                                <h3>Mencegah Serangan Umum</h3>
+                                <p>Karena SQLi, XSS, file upload berbahaya, dan broken access control termasuk serangan paling sering terjadi di web modern.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <img src="../community.png" alt="Trust Icon">
+                            </div>
+                            <div>
+                                <h3>Meningkatkan Kepercayaan Pengguna</h3>
+                                <p>Website yang aman membuat pengguna merasa lebih nyaman dan profesional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
